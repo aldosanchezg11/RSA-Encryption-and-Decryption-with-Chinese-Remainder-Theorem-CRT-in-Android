@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <EditText
+            android:id="@+id/messageInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter message" android:minHeight="48dp"/>
+
+    <Button
+            android:id="@+id/encryptButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Encrypt"/>
+
+    <TextView
+            android:id="@+id/encryptedMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Encrypted Message"
+            android:padding="8dp"/>
+
+    <Button
+            android:id="@+id/decryptButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decrypt"/>
+
+    <Button
+            android:id="@+id/decryptCrtButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decrypt with CRT" />
+
+    <TextView
+            android:id="@+id/decryptedMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Decrypted Message"
+            android:padding="8dp"/>
+
+    <TextView
+            android:id="@+id/encryptionTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Encryption Time: "/>
+
+    <TextView
+            android:id="@+id/decryptionTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Decryption Time: "/>
+
+</LinearLayout>
