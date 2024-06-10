@@ -1,0 +1,1 @@
+The code was ran in intellij idea with the android studio environment, since github won't accept files more than 25mb (even if they are compressed), the whole app can't be attached in this repository. But it is just a matter of creating the project in the same environment and it will work perfectly. 
